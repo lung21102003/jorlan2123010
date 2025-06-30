@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1><strong> Portofolio Pribadi Saya</strong></h1>
+            <nav>
+                <ul class="nav-links">
+                   <li><a href="#tentang_saya">Tentang Saya</a></li>
+                    <li><a href="#hobi">Hobi</a></li>
+                    <li><a href="#mata_kuliah">Mata Kuliah</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <a href="#"></a>
+    <main class="container">
+        <section id="about" class="section">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="profil.png" alt="Professional headshot portrait of myself wearing formal attire" />
+                </div>
+                <div class="profile-info">
+                    <h2 id="tentang_saya">Tentang Saya</h2>
+                    <p><strong><i>Hallo,Nama saya adalah Marton Lois Jorland Romi, saya adalah mahasiswa unkriswina Sumba, Program Studi Teknik Informatika, semester 4. </strong></i></p>
+                    <div class="contact-info">
+                        <p><strong>Nama:</strong> Marton Lois Jorland Romi</p>
+                        <p><strong>Tanggal Lahir:</strong> 05, february 2006</p>
+                        <p><strong>Email:</strong> jorlanromi@gmail.com</p>
+                        <p><strong>Nomor Telpon:</strong> 082 246 230 656</p>
+                        <p><strong>Tempat Tinggal:</strong> Waingapu, Sumba Timur</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobi" class="section">
+            <h2><strong>Hobby saya</strong></h2>
+            <div class="hobby-grid">
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZDQ3imDJ5FwV1nowMP-F6uRmbaqDhoEBUIw&s" alt="Laptop with code editor open showing JavaScript code" />
+                    </div>
+                    <h3>Mendengarkan Musik</h3>
+                    
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0u75iFWyL6gjIbkBBoQnx3SDN8BC5jzKsQw&s" alt="Person reading a book in a cozy cafe with coffee cup" />
+                    </div>
+                    <h3>Membaca</h3>
+                   
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-image">
+                        <img src="https://www.bcalife.co.id/storage/articles/share/bagus-untuk-kesehatan-simak-5-manfaat-olahraga-bagi-tubuh-ini-pantang-diabaikan-1653392364.jpg" alt="Gaming setup with dual monitors and mechanical keyboard" />
+                    </div>
+                    <h3>Olahraga</h3>
+            
+                </div>
+            </div>
+        </section>
+
+        <section id="mata_kuliah" class="section">
+            <h2><strong>Mata Kuliah Semester ini</h2>
+            <div class="course-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Kelas</th>
+                            <th>Mata Kuliah</th>
+                            <th>SKS</th>
+                            <th>Dosen Pengampu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A</td>
+                            <td>Manajemen Jaringan</td>
+                            <td>3</td>
+                            <td>FAJAR HARIADI S.T.,M.T</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Multimedia</td>
+                            <td>3</td>
+                            <td>TRI SARY DEWI NOVYANTI BERTHA MIRA S.T, M. Kom</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Pengenalan Web</td>
+                            <td>3</td>
+                            <td>PINGKY A. R. LEO LEDE S.Kom., M.Cs</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Statistika Dan Probabilitas</td>
+                            <td>3</td>
+                            <td>DENISIUS UMBU PATI SKM.,M.Kes</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Arsitektur Komputer</td>
+                            <td>3</td>
+                            <td>REYNALDI THIMOTIUS ABINENO S.Kom., M.Kom</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Kapita Selekta Sumba</td>
+                            <td>3</td>
+                            <td>DENISIUS UMBU PATI SKM.,M.Kes</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Technopreneurship</td>
+                            <td>3</td>
+                            <td>MURRY ALBERT AGUSTIN LOBO S.SI., M.Kom</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy;JorlandLouis.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/jorland.louis">Facebook</a>
+                <a href="https://www.instagram.com/jorlannd.louis?igsh=MWllNzIzdjhyeXF2ag==">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
